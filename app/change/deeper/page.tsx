@@ -19,7 +19,26 @@ export default function LevelDeeper(){
                 <div className="flex py-2"><p>And the same things happen when you go towards the future. What do you march towards? Your death, untimely or not? The legacy of humanity and civilization {`(positive or negative outcome)`}? Or if you go far enough out... then what? Is it the "Big Crunch" as some theoeretical physicists theorize it to be?</p></div>
                 <br/>
                 <div className="h-[2px] w-full bg-black"/>
+                <div className="flex py-2"><p>Perhaps the better question is, what even is the mysterious nature of the universe that lets us contemplate the grand illusion of it all in our current time?</p></div>
+                <br/>
+                <div className="flex py-2"><p>This force, as I have come to know it, is the "Dao".</p></div>
 
+                <a
+          href="https://daoism.de"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Read more about the Dao{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            At Daoism.de
+          </p>
+        </a>
             </div>
         </div>
     )
