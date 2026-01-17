@@ -20,6 +20,12 @@ export default function ChangeRoute() {
                     <div className="font-bold">You are at rest.</div>
                 </div>
 
+
+                <div className="flex flex-row justify-center align-center">
+                    <div className="flex text-center">- Alan Watts</div>
+                </div>
+
+
             </div>
         </div>
     )
