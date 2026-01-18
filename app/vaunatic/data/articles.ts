@@ -2,33 +2,33 @@ import { ArticleDisplayCardProps } from "../components/ArticleDisplayCard";
 
 export const ArticleCardData: ArticleDisplayCardProps[] = [
     {
-        caption: "An article, number 1",
-        title: "Blue Article, Title 1",
+        caption: "This is an interesting one!",
+        title: "Architects - Lost Forever // Lost Together",
         color: "blue",
     },
     {
-        caption: "An article, number 2",
-        title: "Red Article, Title 2",
+        caption: "You might like this one!",
+        title: "Architects - All Our Gods Have Abandoned Us",
         color: "red",
     },
     {
-        caption: "An article, number 3",
-        title: "Other Article, Title 3",
+        caption: "CHECK THIS ONE OUT",
+        title: "Architects - Holy Hell",
         color: "purple",
     },
     {
-        caption: "An article, number 4",
-        title: "Blue Article, Title 4",
+        caption: "Perhaps click this one?",
+        title: "covet - effloresce",
         color: "blue",
     },
     {
-        caption: "An article, number 5",
-        title: "Red Article, Title 5",
+        caption: "Definitely check this one out dude",
+        title: "covet - technicolor",
         color: "red",
     },
     {
-        caption: "An article, number 6",
-        title: "Other Article, Title 6",
+        caption: "This is the one for SURE",
+        title: "covet - catharsis",
         color: "purple",
     },
 ]
