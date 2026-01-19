@@ -1,3 +1,7 @@
+import * as MarkdownTest from "./markdown-test.mdx"
+import * as AnotherPost from "./another-post.mdx"
+import { posts } from "@/content"
+
 type ArticlePageProps = {
     params: Promise<{ slug: string}>
 }
@@ -11,7 +15,8 @@ type ArticlePostMetadata = {
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
     const { slug } = await params
-    const post = await import(`@/content/${slug}.mdx`)
+    
+    const post = posts[slug as keyof typeof posts]
 
     console.log(`post is ${JSON.stringify(post.metadata)}`)
 
