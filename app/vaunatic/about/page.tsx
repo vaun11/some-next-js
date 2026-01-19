@@ -14,7 +14,7 @@ export default function AboutVaunatic() {
                 <h2>Here are some of the (many) things Maya has worked on professionally:</h2>
             </div>
             <div className="flex flex-row">
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside space-y-2">
                     {/* Professional Job #1 */}
                     <li>
                         Plastics Manufacturing Industry (2019 - 2021)   
@@ -57,6 +57,36 @@ export default function AboutVaunatic() {
                             </li>
                             <li>
                                 Medical Data (HL7) and Pharmaceutical Structured Product Labeling (SPL) Application Support
+                            </li>
+                            {/* Separate section for another client */}
+                            <h3></h3>
+                            <li className="pt-2">
+                                SOP (Standard Operating Procedure) Development for Probate Legal Case Management
+                            </li>
+                            <li>
+                                User Interface (UI) Design and Development for Probate Legal Case Management
+                            </li>
+                            <li>API (Application Programming Interface) Development for probate case data and associated document management</li>
+                        </ul>
+                    </li>
+                    {/* Career Move #4 - Retail Sales Development */}
+                    <li>
+                        Retail Sales Development (2025-2026)
+                        <ul className="list-decimal list-inside pl-4">
+                            <li>
+                                Storefront Website selling one-of-a-kind oriental rugs
+                            </li>
+                            <li>
+                                Shopify Store design, development, and deployment
+                            </li>
+                            <li>
+                                Inventory Control System design and development; integration with Excel, SQL databases, and messaging platforms
+                            </li>
+                            <li>
+                                System administration of Shopify, eBay, Wayfair, Amazon, and Overstock client sales-front accounts
+                            </li>
+                            <li>
+                                Reporting pipeline covering inventory status, sales/order/customer history, and prospective sales outlooks
                             </li>
                         </ul>
                     </li>
