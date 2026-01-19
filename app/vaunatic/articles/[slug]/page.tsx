@@ -13,6 +13,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     const { slug } = await params
     const post = await import(`@/content/${slug}.mdx`)
 
+    console.log(`post is ${JSON.stringify(post.metadata)}`)
+
     // Get the react component from processing the MDX file
     const MDXContent = post.default
 
