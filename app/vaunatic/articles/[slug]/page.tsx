@@ -1,5 +1,3 @@
-import * as MarkdownTest from "./markdown-test.mdx"
-import * as AnotherPost from "./another-post.mdx"
 import { posts } from "@/content"
 
 type ArticlePageProps = {
