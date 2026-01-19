@@ -14,11 +14,15 @@ type ArticlePostMetadata = {
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
     const { slug } = params
+
+    // const rawSlug = params.slug
+    // const slug = rawSlug.replace(/\/$/, "")
     
     const post = posts[slug as keyof typeof posts]
 
-    if(!post){
-        notFound()
+    if (!post) {
+        return <pre>{JSON.stringify({ slug, keys: Object.keys(posts) }, null, 2)}</pre>
+        // notFound()
     }
 
     console.log(`post is ${JSON.stringify(post.metadata)}`)
