@@ -1,7 +1,8 @@
 import { posts } from "@/content"
+import { notFound } from "next/navigation"
 
 type ArticlePageProps = {
-    params: Promise<{ slug: string}>
+    params: { slug: string}
 }
 
 type ArticlePostMetadata = {
@@ -12,9 +13,13 @@ type ArticlePostMetadata = {
 }
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
-    const { slug } = await params
+    const { slug } = params
     
     const post = posts[slug as keyof typeof posts]
+
+    if(!post){
+        notFound()
+    }
 
     console.log(`post is ${JSON.stringify(post.metadata)}`)
 
