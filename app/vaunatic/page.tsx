@@ -3,12 +3,6 @@ import { ArticleCardData } from "./data/articles";
 
 export default function VaunaticHome() {
 
-    const card4Data: ArticleDisplayCardProps = {
-        caption: "Caption",
-        title:"Blue Title",
-        color: "blue"
-    }
-
     return (
         <>
         <h2 className="text-white italic text-xl font-bold">Articles</h2>

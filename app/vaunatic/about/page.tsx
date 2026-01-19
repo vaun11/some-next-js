@@ -38,10 +38,10 @@ export default function AboutVaunatic() {
                                 Administrative UI for Control of Online Student Learning (Courses, Assignments, Assessments)
                             </li>
                             <li>
-                                "Accomodations Profiles" for Students using Learning Management Software (LMS)
+                                &quot;Accomodations Profiles&quot; for Students using Learning Management Software (LMS)
                             </li>
                             <li>
-                                Physical Assessment Sheet - Analysis and Grading Pipeline (Think "ScanTron" sheets, and the tools to "grade" these assignments)
+                                Physical Assessment Sheet - Analysis and Grading Pipeline (Think &quot;ScanTron&quot; sheets, and the tools to &quot;grade&quot; these assignments)
                             </li>
                         </ul>
                     </li>

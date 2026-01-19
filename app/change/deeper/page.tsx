@@ -15,13 +15,13 @@ export default function LevelDeeper(){
                 <div className="h-[2px] w-full bg-black"/>
                 <div className="flex py-2"><p>Thus, the present is the always changing context of the past and future. Where the past and future walk hand in hand, two arms of infinity stretching outwards in seemingly opposite directions</p></div>
 
-                <div className="flex py-2"><p>However, this is where things truly do get tricky. Because seeing the past as stretching backwards as a single vector towards... what exactly? The big bang? God's creation story? Either way... it gets tricky. Because there is increasing uncertainty the further you go back</p></div>
-                <div className="flex py-2"><p>And the same things happen when you go towards the future. What do you march towards? Your death, untimely or not? The legacy of humanity and civilization {`(positive or negative outcome)`}? Or if you go far enough out... then what? Is it the "Big Crunch" as some theoeretical physicists theorize it to be?</p></div>
+                <div className="flex py-2"><p>However, this is where things truly do get tricky. Because seeing the past as stretching backwards as a single vector towards... what exactly? The big bang? God&apos;s creation story? Either way... it gets tricky. Because there is increasing uncertainty the further you go back</p></div>
+                <div className="flex py-2"><p>And the same things happen when you go towards the future. What do you march towards? Your death, untimely or not? The legacy of humanity and civilization {`(positive or negative outcome)`}? Or if you go far enough out... then what? Is it the &quot;Big Crunch&quot; as some theoeretical physicists theorize it to be?</p></div>
                 <br/>
                 <div className="h-[2px] w-full bg-black"/>
                 <div className="flex py-2"><p>Perhaps the better question is, what even is the mysterious nature of the universe that lets us contemplate the grand illusion of it all in our current time?</p></div>
                 <br/>
-                <div className="flex py-2"><p>This force, as I have come to know it, is the "Dao".</p></div>
+                <div className="flex py-2"><p>This force, as I have come to know it, is the &quot;Dao.&quot;</p></div>
 
                 <a
           href="https://daoism.de"
