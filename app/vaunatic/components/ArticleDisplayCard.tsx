@@ -1,4 +1,5 @@
 export interface ArticleDisplayCardProps {
+    key: String,
     caption: String,
     title: String,
     color: "red" | "blue" | "purple"

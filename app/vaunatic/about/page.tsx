@@ -14,7 +14,7 @@ export default function AboutVaunatic() {
                 <h2>Here are some of the (many) things Maya has worked on professionally:</h2>
             </div>
             <div className="flex flex-row">
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="list-disc list-inside space-y-2 divide-y">
                     {/* Professional Job #1 */}
                     <li>
                         Plastics Manufacturing Industry (2019 - 2021)   
