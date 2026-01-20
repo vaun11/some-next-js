@@ -13,7 +13,7 @@ type ArticlePostMetadata = {
 }
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
-    const slug = params.slug.replace(/\/$/, "")
+    const slug = params.slug
     
     const post = posts[slug as keyof typeof posts]
 
