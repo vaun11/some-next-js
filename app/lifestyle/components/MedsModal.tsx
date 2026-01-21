@@ -14,7 +14,7 @@ const modalVariants = {
 export const MedsModal = ({closeModal} : {closeModal: ()=>void}) => {
     return (
         <motion.div
-        className="absolute bg-slate-900 border-2 border-slate-500 text-white rounded-md w-[500px] h-[500px] p-2"
+        className="flex flex-col absolute bg-slate-900 border-2 border-slate-500 text-white rounded-md w-[500px] h-[500px] p-2"
         initial= {{
             opacity: 0, x: "0", y: "20%"
         }}
@@ -30,7 +30,10 @@ export const MedsModal = ({closeModal} : {closeModal: ()=>void}) => {
         <h2 className="text-xl italic font-bold">Meds List</h2>
         <p>This is where your modal content will go</p>
         <MedicineDropdown/>
-        <button className="bg-red-500 border-2 border-red-900 rounded-md p-1" onClick={() => closeModal()}>Close</button>
-      </motion.div>
+        <div className="mt-auto flex flex-row justify-around">
+            <button className="bg-red-500 border-2 border-red-900 rounded-md p-1" onClick={() => closeModal()}>Close</button>
+            <button className="bg-green-500 border-2 border-green-900 rounded-md p-1" onClick={() => alert("test")}>Accept</button>
+        </div>
+        </motion.div>
     );
 };
